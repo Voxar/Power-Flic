@@ -7,18 +7,16 @@
 // will forward there all the HTTP requests you send
 BridgeServer server;
 Servo myservo;
+
 void setup() {
   // Bridge startup
-  pinMode(13, OUTPUT);
-  digitalWrite(13, LOW);
   Bridge.begin();
-  digitalWrite(13, HIGH);
-
 
   // Listen for incoming connection only from localhost
   // (no one from the external network could connect)
   server.listenOnLocalhost();
   server.begin();
+  
   myservo.attach(5);
 }
 
