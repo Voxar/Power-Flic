@@ -17,7 +17,7 @@ The basic idea is to turn on/off a physical button. Our experiment turns out to 
 ### Step 2: Set up Arduino with mini servo
 
 
-TODO:picture
+![Connect mini servo](https://raw.githubusercontent.com/Voxar/Power-Flic/master/Connect%20Arduino%20with%20the%20Mini%20Servo.JPG)
 
 
 ### Step 3: Connect with WiFi network 
@@ -25,7 +25,8 @@ TODO:picture
 - Connect Arduino Yun with WiFi network
 - Connect phone with the same network
 - Open Flic app in the phone and set up click with HTTP request
-TODO:picture
+
+![Flic Setup](https://raw.githubusercontent.com/Voxar/Power-Flic/master/Flic%20Setup.PNG)
 
 
 
@@ -123,7 +124,7 @@ TODO:picture
 ### Step 5: Done and try out 
 
 
-TODO:bilder 
+![The final result](https://raw.githubusercontent.com/Voxar/Power-Flic/master/Finished%20product.JPG)
 
 
 
